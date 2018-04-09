@@ -1,0 +1,363 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#linha1 {
+    color: #c6191d;
+    height: 5px;
+    background-color: #c6191d;
+    margin-top: 0;
+    width: 100%;
+}
+
+/* ESTILO DO CABECALHO */
+
+header nav {
+    padding: 30px;
+    vertical-align: center;
+}
+
+header img {
+    max-width: 250px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* MAIN MENU */
+
+#menu {}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+}
+
+#menu li {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    z-index: 999;
+}
+
+
+#menu li a:hover {
+    background-color: rgb(0, 167, 179, 0.7);
+    color: #fff;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+#menu ul li {
+    position: relative;
+}
+
+#menu a {
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #00a7aa;
+    font-family: 'Droid Serif', 'helvetica', sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+/* FISRT LEVEL MENU */
+
+#menu li ul {
+    position: absolute;
+    display: none;
+    top:130%;
+    opacity: 0.8;
+}
+
+#menu li:hover ul {
+    display: block;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#menu li ul li {
+    display: block;
+    width: 235px;
+    margin-bottom: 15px;
+}
+
+#menu li ul li a {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 167, 179);
+    text-align: center;
+    font-family: 'Droid Serif', 'helvetica', sans-serif;
+}
+
+/* SECOND LEVEL MENU */
+
+#menu li ul li ul li {
+    position: relative;
+    display: none;
+    color: rgb(0, 167, 179);
+}
+
+#menu li ul li:hover ul li {
+    display: block;
+}
+
+#menu li ul li ul {
+    display: block;
+    width: 250px;
+    top: 0; 
+    left: 100%;
+    margin-bottom: 10px;
+}
+
+#menu li ul li ul li a {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 167, 179);
+    text-align: center;
+    font-family: 'Droid Serif', 'helvetica', sans-serif;
+}
+
+/* ICONES E IMAGENS */
+
+#tel {
+    max-height: 35px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+}
+
+.icone {
+    max-width: 35px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+#linha2 {
+    color: #c6191d;
+    height: 1.2px;
+    background-color: #c6191d;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+/* Estilo do conteúdo textual do corpo */
+
+#myCarousel {}
+
+.breadcrumb {}
+
+.w3-container {
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+}
+
+.w3-container h1 {
+    font-size: 2.6em;
+    text-align: center;
+    text-shadow: 0px 2px 0 rgba(0, 0, 0, .2);
+    font-weight: 550;
+    margin-bottom: 30px;
+    font-family: 'Droid Serif', 'helvetica', sans-serif;
+}
+
+.w3-container p {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, .2);
+    padding: 40px;
+    font-family: 'Droid Serif', 'helvetica', sans-serif;
+}
+
+.w3-container-azul {
+    background-color: #00a7aa;
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+}
+
+.w3-container-azul h1 {
+    color: #fff;
+    font-size: 2.6em;
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 30px;
+    font-family: 'Droid Serif', 'helvetica', sans-serif;
+    text-shadow: 0px 2px 0 rgba(0, 0, 0, .2);
+}
+
+.w3-container-azul p {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Droid Serif', 'helvetica', sans-serif;
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, .2);
+}
+
+
+#conteudoEsq {
+    position: absolute;
+    width: 190px;
+    left: 5px;
+    margin-top: 150px;
+}
+
+#sepEsqcolCentral {
+    margin-left: 350px;
+    padding-left: 2px;
+    margin-bottom: 150px;
+}
+
+#colCentral {
+    padding: 2px 10px;
+    text-align: justify;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family: 'arial', 'helvetica', sans-serif;
+}
+
+#colCentral h3 {
+    font-weight: bold;
+    font-size: 1.8em;
+    text-shadow: 0px 2px 0 rgba(0, 0, 0, .2);
+}
+
+#colCentral p {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, .2);
+}
+
+#colCentral ul {
+    margin-top: 40px;
+    padding: 2px;
+}
+
+#colCentral li {
+    margin: 0;
+    display: table-cell;
+    list-style-type: none;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#span2 {
+    display: block;
+    margin-left: 50px;
+}
+
+#hosp-icon {
+    max-width: 240px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+}
+
+
+#thumb {
+    margin-bottom: 100px;
+    padding: 0;
+}
+
+#thumb .thumb-content {
+    display: inline-block;
+    margin: 0 5px 0 50px;
+}
+
+#thumb h3 {
+    text-align: center;
+    text-shadow: 0px 2px 0 rgba(0, 0, 0, .2);
+}
+
+#thumbImgs {
+    max-width: 90px;
+    width: auto;
+    height: auto;
+}
+
+
+/* RODAPÉ */
+
+#painel-inferior {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#consulting-logo {
+    max-width: 250px;
+    width: auto;
+    height: auto;
+}
+
+#painel-inferior ul {
+    position: relative;
+    list-style-type: none;
+    margin-left: 37%;
+}
+
+#painel-inferior li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#tel2 {
+    max-height: 37px;
+    width: auto;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 30px;
+    vertical-align: center;
+    background-color: #c6191d;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+footer nav {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer ul {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+}
+
+footer #menu a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'arial', 'helvetica', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
